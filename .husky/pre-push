@@ -3,3 +3,8 @@
 
 npm run build
 npm run test
+#!/bin/sh
+. "$(dirname "$0")/_/husky.sh"
+
+npm run build
+npm run test
